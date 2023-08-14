@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./todo-add.css";
 import { addTodoList } from "../../../api/todoListApi";
-import DropdownPriority from "./dropdownPriority";
+import DropdownPriority from "./DropdownPriority";
 
 export default function TodoAdd({ showModalAddTodo, handleCloseModalAddTodo, setRefresh, refresh, id }) {
   const [newTodo, setNewTodo] = useState({
