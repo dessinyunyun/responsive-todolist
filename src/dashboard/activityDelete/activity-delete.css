@@ -45,7 +45,7 @@
 }
 
 .modalDeleteactivity-footer > button {
-  @apply active:bg-sky-500 font-normal text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
+  @apply active:bg-sky-500 font-normal text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 w-3/4;
 }
 
 .modalDeleteactivity-bg {

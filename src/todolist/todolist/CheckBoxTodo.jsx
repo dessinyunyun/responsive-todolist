@@ -20,7 +20,7 @@ const CheckBoxTodo = ({ todo, refresh, setRefresh }) => {
     }
   };
 
-  return <input type="checkbox" name="" id="" defaultChecked={chekList} onChange={handleChekTodo} />;
+  return <input type="checkbox" name="" id="" defaultChecked={chekList} onChange={handleChekTodo} className="w-5 h-5 text-sky-500 border rounded focus:ring focus:ring-opacity-50 focus:ring-sky-500 focus:border-sky-500 outline-none" />;
 };
 
 export default CheckBoxTodo;

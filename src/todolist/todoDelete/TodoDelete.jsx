@@ -30,17 +30,17 @@ const TodoDelete = ({ showModalDeleteTodo, handleCloseModalDeleteTodo, todolistC
         }}
         onClick={handleCloseModalDeleteTodo}
       >
-        <div className="modalDeleteactivity-container">
-          <div className="modalDeleteactivity-content-container">
+        <div className="modalDeleteTodo-container">
+          <div className="modalDeleteTodo-content-container">
             {/*content*/}
-            <div className="modalDeleteactivity-content" onClick={(e) => e.stopPropagation()}>
+            <div className="modalDeleteTodo-content" onClick={(e) => e.stopPropagation()}>
               {/*body*/}
-              <div className="modalDeleteactivity-body">
+              <div className="modalDeleteTodo-body">
                 <i class="fi fi-ss-triangle-warning"></i>
-                <p>Delete this List?</p>
+                <p>Delete List?</p>
               </div>
               {/*footer*/}
-              <div className="modalDeleteactivity-footer">
+              <div className="modalDeleteTodo-footer">
                 <button className="bg-stone-300 text-zinc-500" onClick={handleCloseModalDeleteTodo}>
                   Close
                 </button>
@@ -52,7 +52,7 @@ const TodoDelete = ({ showModalDeleteTodo, handleCloseModalDeleteTodo, todolistC
           </div>
         </div>
       </div>
-      {showModalDeleteTodo && <div className="modalDeleteactivity-bg "></div>}
+      {showModalDeleteTodo && <div className="modalDeleteTodo-bg "></div>}
     </>
   );
 };

@@ -37,7 +37,7 @@
 }
 
 .priority-container {
-  @apply w-1/2;
+  @apply w-full  lg:w-2/4;
 }
 
 .priority-container > label {
