@@ -1,0 +1,6 @@
+.priority {
+  width: 15px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  height: 15px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  border-radius: 50%; /* Membuatnya menjadi bulatan */
+  margin-right: 5px; /* Jarak antara bulatan dan teks */
+}

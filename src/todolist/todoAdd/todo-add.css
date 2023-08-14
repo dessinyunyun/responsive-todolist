@@ -1,0 +1,58 @@
+.modaladdtodolist-container {
+  @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+
+.modaladdtodolist-content-container {
+  @apply relative my-6 mx-auto w-5/6 sm:w-3/6;
+}
+
+.modaladdtodolist-content {
+  @apply border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none;
+}
+
+/* ------------------------------------ HEADER ----------------------------- */
+.modaladdtodolist-header {
+  @apply flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t;
+}
+
+.modaladdtodolist-header > h3 {
+  @apply text-xl font-semibold;
+}
+
+.modaladdtodolist-header > button {
+  @apply p-1 ml-auto bg-transparent border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none;
+}
+
+.modaladdtodolist-header > button > span {
+  @apply bg-transparent text-black opacity-70 h-6 w-6 text-2xl block outline-none focus:outline-none;
+}
+
+/* ------------------------------------ BODY ----------------------------- */
+.modaladdtodolist-body {
+  @apply relative p-3 flex-auto  flex flex-col gap-5;
+}
+
+.modaladdtodolist-body > input {
+  @apply w-full px-4 py-3 border rounded-md focus:ring focus:ring-opacity-50 focus:ring-sky-500 focus:border-sky-500 outline-none;
+}
+
+.priority-container > label {
+  @apply font-semibold block mb-1;
+}
+
+.priority-container {
+  @apply w-full sm:w-3/5 md:w-1/2;
+}
+
+/* ------------------------------------ FOOTER ----------------------------- */
+.modaladdtodolist-footer {
+  @apply flex items-center justify-end p-5;
+}
+
+.modaladdtodolist-footer > button {
+  @apply text-white active:bg-sky-500 font-normal text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
+}
+
+.modaladdtodolist-bg {
+  @apply opacity-50 fixed inset-0  bg-black;
+}

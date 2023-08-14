@@ -1,0 +1,7 @@
+.title-edit-activity-container {
+  @apply text-2xl font-bold w-full flex;
+}
+
+.input-edit-title-activity {
+  @apply bg-transparent border-b border-black focus:outline-none w-full;
+}

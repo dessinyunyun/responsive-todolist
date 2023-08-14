@@ -1,0 +1,53 @@
+.modalDeleteactivity-container {
+  @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+}
+
+.modalDeleteactivity-content-container {
+  @apply relative my-6 mx-auto w-5/6 sm:w-3/6;
+}
+
+.modalDeleteactivity-content {
+  @apply border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none;
+}
+
+/* ------------------------------------ HEADER ----------------------------- */
+.modalDeleteactivity-header {
+  @apply flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t;
+}
+
+.modalDeleteactivity-header > h3 {
+  @apply text-xl font-semibold;
+}
+
+.modalDeleteactivity-header > button {
+  @apply p-1 ml-auto bg-transparent border-0 float-right text-3xl leading-none font-semibold outline-none focus:outline-none;
+}
+
+.modalDeleteactivity-header > button > span {
+  @apply bg-transparent text-black opacity-70 h-6 w-6 text-2xl block outline-none focus:outline-none;
+}
+
+/* ------------------------------------ BODY ----------------------------- */
+.modalDeleteactivity-body {
+  @apply relative p-5 flex-auto  m-auto text-center;
+}
+
+.modalDeleteactivity-body > i {
+  @apply text-5xl text-red-500;
+}
+.modalDeleteactivity-body > p {
+  @apply text-2xl font-normal;
+}
+
+/* ------------------------------------ FOOTER ----------------------------- */
+.modalDeleteactivity-footer {
+  @apply flex items-center justify-end p-5;
+}
+
+.modalDeleteactivity-footer > button {
+  @apply active:bg-sky-500 font-normal text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
+}
+
+.modalDeleteactivity-bg {
+  @apply opacity-50 fixed inset-0  bg-black;
+}
